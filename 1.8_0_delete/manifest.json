@@ -1,0 +1,22 @@
+{
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Automatically backup and restore your bookmarks.",
+  "icons": {
+    "128": "assets/browser_bookmark.png"
+  },
+  "manifest_version": 3,
+  "name": "Bookmark BackupV3",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options/options.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "unlimitedStorage",
+    "alarms",
+    "storage"
+  ],
+  "version": "1.0"
+}
